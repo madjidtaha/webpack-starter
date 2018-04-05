@@ -1,0 +1,3 @@
+https://www.proxmox.com/en/news/media-kit
+https://www.debian.org/logos/
+https://letsencrypt.org/trademarks/

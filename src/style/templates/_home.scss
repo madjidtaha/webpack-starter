@@ -1,0 +1,118 @@
+// LANDING
+body > .grid-x {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+h1 {
+  color: #1d6278;
+}
+p {
+  color: #829499;
+  font-weight: bold;
+  line-height: 1.4rem;
+}
+h3 {
+  color: #1d6278;
+}
+h6 {
+  font-family: $body-font-family;
+  text-transform: uppercase;
+  position: relative;
+  font-weight: 800;
+  font-size: 75%;
+  letter-spacing: 1px; 
+  color: #b3cad1;
+  margin-bottom: 1.5rem;
+
+  &::after {
+    position: absolute;
+    bottom: -10px;
+    width: 32px;
+    background: #b3cad1;
+    height: 1px;
+    content: '';
+    left: 0;
+
+  }
+}
+
+.landing-wrapper {
+  width: 100%;
+  background: #f5fafb;
+  display: inline-block;
+  position: relative;
+  &::after {
+    padding-top: 50%;
+    /* 16:9 ratio */
+    display: block;
+    content: '';
+  }
+}
+
+
+.landing {
+  // replace with topbar height
+  // height: calc(100vh - 80px);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.services {
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+
+}
+.infrastructure {
+  min-height: 100vh;
+  .cell {
+    margin: 20px 0;
+  }
+}
+.support {
+  background-color: #f8fbfc;
+}
+.services,
+.contribute,
+.infrastructure,
+.support {
+  min-height: 100vh;
+  justify-content: center;
+}
+.contribute .presentation-block {
+  color: white;
+  background: black;
+  padding: 4rem 4rem 3rem;
+  box-sizing: content-box;
+  h6::after {
+      background: white;
+  }
+}
+.landing-wrapper {
+
+}
+
+.center-x {
+  align-items: center;
+}
+.center-y {
+  justify-content: center;
+}
+.button.round {
+  @include border-rounded;
+}
+.presentation-block {
+  p {
+    margin-bottom: 1.5rem; 
+  }
+  &.shrink {
+    height: auto;
+  }
+}

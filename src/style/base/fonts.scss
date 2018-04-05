@@ -1,0 +1,50 @@
+/* Webfont: Lato-Bold */@font-face {
+    font-family: 'Karla';
+    src: url('/assets/fonts/Karla/Karla-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('/assets/fonts/Karla/Karla-Bold.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/Karla/Karla-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-BoldItalic */@font-face {
+    font-family: 'Karla';
+    src: url('/assets/fonts/Karla/Karla-BoldItalic.woff2') format('woff2'), /* Modern Browsers */
+         url('/assets/fonts/Karla/Karla-BoldItalic.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/Karla/Karla-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 700;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Italic */@font-face {
+    font-family: 'Karla';
+    src: url('/assets/fonts/Karla/Karla-Italic.woff2') format('woff2'), /* Modern Browsers */
+         url('/assets/fonts/Karla/Karla-Italic.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/Karla/Karla-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Lato-Regular */@font-face {
+    font-family: 'Karla';
+    src: url('/assets/fonts/Karla/Karla-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('/assets/fonts/Karla/Karla-Regular.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/Karla/Karla-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+
+/* Webfont: Lato-Regular */@font-face {
+    font-family: 'Raleway';
+    src: url('/assets/fonts/Raleway/Raleway-Thin.woff2') format('woff2'), /* Modern Browsers */
+         url('/assets/fonts/Raleway/Raleway-Thin.woff') format('woff'), /* Modern Browsers */
+         url('/assets/fonts/Raleway/Raleway-Thin.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+}
